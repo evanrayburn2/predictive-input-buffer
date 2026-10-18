@@ -24,6 +24,7 @@ jobs:
         with:
           combine: true
           sdk: latest
+          use-cpm-cache: false
 
   package:
     name: Package builds
